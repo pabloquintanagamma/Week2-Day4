@@ -1,0 +1,82 @@
+body{
+    font: Arial;
+    font-size: 15px;
+    margin: 0;
+}
+
+.relative{
+    position: relative;
+    border: 5px solid blue;
+    left: 400px;
+    top: 50px;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: aqua;
+    border: 3px solid red;
+    padding: 30px;
+    z-index: 1;
+}
+
+.absolute{
+    border: 5px solid red;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 180px;
+    z-index: -1;
+    
+}
+
+.floated{
+    background-color: brown;
+    float: left;
+    padding: 40px;
+    width: 250px;
+    margin: 0 20px 0 0;
+}
+
+.hover-ele{
+    background-color: darkgoldenrod;
+    border: 5px solid black;
+}
+
+.hover-ele:hover{
+    background-color: aqua;
+    border: 60px solid salmon;
+    transition: 2s;
+}
+
+input:focus{
+    background-color: red;
+    height: 30px;
+    transition: 1s;
+}
+
+select:focus{
+    background-color: blue;
+    height: 50px;
+}
+
+
+/* links */
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    font-size: larger;
+}
+
+a:active{
+    font-weight: bold;
+    color: tomato;
+    font-size: smaller;
+}
+
+a:visited{
+    color: forestgreen;
+    text-decoration: none
+}
